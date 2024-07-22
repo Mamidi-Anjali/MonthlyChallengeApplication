@@ -1,0 +1,59 @@
+/* ChallengeCard.css */
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.list-group {
+    margin: 0;
+    padding: 0;
+}
+
+.list-group-item {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 12px;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.list-group-item.clickable {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.taskName {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.taskName span:first-child {
+    flex-grow: 1;
+}
+
+.text-muted .taskName {
+    color: gray;
+}
+
+.completed-task-tick {
+    color: green;
+    margin-left: 10px;
+}
